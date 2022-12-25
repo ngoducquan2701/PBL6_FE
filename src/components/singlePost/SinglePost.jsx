@@ -14,7 +14,7 @@ export default function SinglePost() {
   const [post, setPost] = useState({});
   const [state] = useContext(Context);
   const {user} = state;
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://quanvn.click/images/";
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
